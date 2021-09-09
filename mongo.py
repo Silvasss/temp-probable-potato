@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 
 def sendMongo():
-    cluster = MongoClient("mongodb+srv://dbMentalHealth:saudeMental#99@cluster0.xdidk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    cluster = MongoClient("url-mongo")
 
     db = cluster['test']
 
